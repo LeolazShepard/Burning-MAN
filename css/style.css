@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: Anton, sans-serif;
+}
+
+header {
+  color: rgb(255, 255, 255);
+  height: 750px;
+  width: 100%;
+  background-image: url(/img/header-bg.jpg);
+  padding: 0px 200px;
+}
+header a {
+  color: rgb(255, 255, 255);
+}
+header .topHeader {
+  font-style: 14px;
+  padding-top: 55px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+header .topHeader .navbar {
+  display: flex;
+  align-items: center;
+}
+header .topHeader .navbar .logoImg {
+  margin-right: 65px;
+}
+header .topHeader .navbar .navMenu {
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  list-style: none;
+}
+header .topHeader .navbar .navMenu li {
+  margin-right: 40px;
+}
+header .topHeader .phone {
+  justify-self: end;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}

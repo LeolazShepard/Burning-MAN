@@ -1,0 +1,51 @@
+//Імпортуємо шрифти і стилі обнулення
+@import "_nullifying";
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$HeaderColor:rgb(255, 255, 255);
+body{
+    font-family: Anton, sans-serif;
+}
+header{
+    color: $HeaderColor;
+    height: 750px;
+    width: 100%;
+    background-image: url(/img/header-bg.jpg);
+    padding: 0px 200px;
+        a{
+            color: $HeaderColor;
+        }
+    .topHeader{
+        font-style: 14px;
+        padding-top:55px ;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        align-items: center;
+        .navbar{
+            display: flex;
+            align-items: center;
+            .logoImg{
+                margin-right: 65px;
+            }
+            .navMenu{
+                line-height: 21px;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                display: flex;
+                list-style: none;
+                li{
+                    margin-right: 40px;
+                }
+            }
+        }
+        .phone{
+            justify-self: end;
+            font-size: 17px;
+            line-height: 26px;
+            text-align: right;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+    }
+
+}
