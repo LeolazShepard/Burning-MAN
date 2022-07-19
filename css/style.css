@@ -76,6 +76,7 @@ body {
 }
 
 header {
+  text-transform: uppercase;
   color: rgb(255, 255, 255);
   height: 750px;
   width: 100%;
@@ -100,14 +101,16 @@ header .topHeader .navbar .logoImg {
   margin-right: 65px;
 }
 header .topHeader .navbar .navMenu {
-  line-height: 21px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
   display: flex;
   list-style: none;
 }
 header .topHeader .navbar .navMenu li {
   margin-right: 40px;
+  line-height: 20px;
+}
+header .topHeader .navbar .navMenu li:hover {
+  border-bottom: 1px solid #fff;
 }
 header .topHeader .phone {
   justify-self: end;
@@ -115,5 +118,79 @@ header .topHeader .phone {
   line-height: 26px;
   text-align: right;
   letter-spacing: 0.1em;
+}
+header .mainHeader {
+  margin-top: 215px;
+}
+header .mainHeader .taglineHeader span {
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+}
+header .mainHeader .logoTextHeader h1 {
+  font-size: 100px;
+  margin-top: 15px;
+}
+header .mainHeader .bookTicketsButton a {
+  border: 1px solid rgb(255, 255, 255);
+  width: 238px;
+  height: 57px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .mainHeader .bookTicketsButton a:hover {
+  background-color: rgba(245, 237, 237, 0.133);
+}
+header .mainHeader .bookTicketsButton a span {
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+}
+
+.main {
+  color: #000000;
+  padding: 115px 200px;
+  background-color: #E5E5E5;
+}
+.main h2 {
+  font-size: 50px;
+  line-height: 75px;
   text-transform: uppercase;
+  margin-bottom: 58px;
+}
+.main .contentBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 67px;
+}
+.main .contentBlocks div {
+  min-height: 150px;
+  width: 564px;
+}
+.main .contentBlocks p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+}
+.main .contentBlocks h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+.main .contentBlocks .imgSmallContainer {
+  display: flex;
+}
+.main .contentBlocks .imgSmallContainer img {
+  width: 268px;
+}
+.main .contentBlocks .imgSmallContainer img:first-child {
+  margin-right: 30px;
+}
+.main .contentBlocks .imgBigContainer {
+  width: 564px;
+  height: auto;
 }
