@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   font-family: Anton, sans-serif;
+  background-color: #E5E5E5;
 }
 
 header {
@@ -152,7 +153,7 @@ header .mainHeader .bookTicketsButton a span {
 .main {
   color: #000000;
   padding: 115px 200px;
-  background-color: #E5E5E5;
+  margin-bottom: 115px;
 }
 .main h2 {
   font-size: 50px;
@@ -193,4 +194,14 @@ header .mainHeader .bookTicketsButton a span {
 .main .contentBlocks .imgBigContainer {
   width: 564px;
   height: auto;
+}
+
+footer {
+  display: flex;
+  font-family: "Open Sans";
+  font-size: 15px;
+  padding: 0px 200px 90px 200px;
+}
+footer div {
+  margin-right: 55px;
 }
