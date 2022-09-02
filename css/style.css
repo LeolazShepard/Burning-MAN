@@ -101,6 +101,10 @@ header .topHeader .navbar {
 header .topHeader .navbar .logoImg {
   margin-right: 65px;
 }
+header .topHeader .navbar .logoImg img {
+  width: 31px;
+  height: 48px;
+}
 header .topHeader .navbar .navMenu {
   letter-spacing: 0.1em;
   display: flex;

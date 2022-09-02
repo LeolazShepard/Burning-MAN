@@ -31,6 +31,10 @@ header{
             align-items: center;
             .logoImg{
                 margin-right: 65px;
+                & img{
+                    width: 31px;
+                    height: 48px;
+                }
             }
             .navMenu{
                 letter-spacing: 0.1em;
